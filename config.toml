@@ -142,8 +142,8 @@ theme = "elate"
     description = "KubeCI enables you to go all cloud native with your CI/CD pipeline."
 
     [[params.services.item]]
-      title = "Brand &amp; Strategy"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      title = "Same Cluster"
+      description = "Instead of needing to manage more infrastructure just for your CI/CD pipeline, KubeCI is able to run on the same cluster your applications run on."
       icon = "icon-anchor"
 
     [[params.services.item]]
