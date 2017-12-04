@@ -79,13 +79,13 @@ theme = "elate"
       img = "images/plugins/kubectl.png"
       alt = "Image2"
       title = "kubectl"
-      subtitle = "Plugin to more easily use kubectl in a pipeline"
+      subtitle = "Plugin to easily use kubectl in a pipeline"
 
     [[params.work.row]]
       img = "images/plugins/helm.png"
       alt = "Image2"
       title = "helm"
-      subtitle = "Plugin to more easily use helm in a pipeline"
+      subtitle = "Plugin to easily use helm in a pipeline"
 
   # Testimonials section
   [params.testimonials]
