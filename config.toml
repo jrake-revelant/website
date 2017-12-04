@@ -8,7 +8,7 @@ theme = "elate"
   custom_css = ["css/kubeci.css"]
 
   author = "Loodse GmbH"
-  description = "KubeCI is a Continuous Delivery platform built on Drone for Kubernetes, written in Go"
+  description = "KubeCI is a Cloud Native Continuous Delivery platform built on Drone for Kubernetes, written in Go"
   email = ""
 
   [params.navigation]
@@ -38,7 +38,7 @@ theme = "elate"
   # Hero section
   [params.hero]
     title = "Cloud Native Continuous Delivery."
-    subtitle = 'KubeCI is a Continuous Delivery platform built on <a href="https://drone.io">Drone</a> for <a href="https://kubernetes.io">Kubernetes</a> , written in <a href="https://golang.org">Go</a>.'
+    subtitle = 'KubeCI is a Cloud Native Continuous Delivery platform built on <a href="https://drone.io">Drone</a> for <a href="https://kubernetes.io">Kubernetes</a> , written in <a href="https://golang.org">Go</a>.'
 
   # Intro section
   # Available icons: http://simplelineicons.com/
@@ -72,44 +72,20 @@ theme = "elate"
   [params.work]
     enable = true
     title = "Plugins"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = "These plugins are tightly integrated with KubeCI and Drone. They allow easy deployments to Kubernetes."
     footertext = ''
 
     [[params.work.row]]
-      img = "work_1.jpg"
+      img = "images/plugins/kubectl.png"
       alt = "Image2"
-      title = "Project 1"
-      subtitle = "Branding"
+      title = "kubectl"
+      subtitle = "Plugin to more easily use kubectl in a pipeline"
 
     [[params.work.row]]
-      img = "work_2.jpg"
+      img = "images/plugins/helm.png"
       alt = "Image2"
-      title = "Project 2"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_3.jpg"
-      alt = "Image3"
-      title = "Project 3"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_4.jpg"
-      alt = "Image4"
-      title = "Project 4"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_5.jpg"
-      alt = "Image5"
-      title = "Project 5"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_6.jpg"
-      alt = "Image6"
-      title = "Project 6"
-      subtitle = "Design"
+      title = "helm"
+      subtitle = "Plugin to more easily use helm in a pipeline"
 
   # Testimonials section
   [params.testimonials]
