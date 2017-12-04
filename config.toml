@@ -80,12 +80,14 @@ theme = "elate"
       alt = "Image2"
       title = "kubectl"
       subtitle = "Plugin to more easily use kubectl in a pipeline"
+      docs = "https://github.com/kubeciio/kubectl/blob/master/DOCS.md"
 
     [[params.work.row]]
       img = "images/plugins/helm.png"
       alt = "Image2"
       title = "helm"
       subtitle = "Plugin to more easily use helm in a pipeline"
+      docs = "https://github.com/kubeciio/helm/blob/master/DOCS.md"
 
   # Testimonials section
   [params.testimonials]
