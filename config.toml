@@ -37,7 +37,7 @@ theme = "elate"
 
   # Hero section
   [params.hero]
-    title = "CloudNative Continuous Delivery."
+    title = "Cloud Native Continuous Delivery."
     subtitle = 'KubeCI is a Continuous Delivery platform built on <a href="https://drone.io">Drone</a> for <a href="https://kubernetes.io">Kubernetes</a> , written in <a href="https://golang.org">Go</a>.'
 
   # Intro section
@@ -46,19 +46,19 @@ theme = "elate"
 
   [[params.intro.item]]
     title = "Develop"
-    description = "A single developer doesn't need to setup anything, just commit & push the changes once they're done."
+    description = "Developers don't need to setup anything, just commit & push their changes."
     icon = "icon-wrench"
     img = "img_8.jpg"
 
   [[params.intro.item]]
     title = "Test"
-    description = "Your changes are tested and built inside Pods (Containers) running on top of Kubernetes."
+    description = "Your changes are tested and built inside Pods (Containers) running inside Kubernetes."
     icon = "icon-speedometer"
     img = "img_10.jpg"
 
   [[params.intro.item]]
     title = "Launch"
-    description = "Deploy your containers to the cluster you're running on or any other cluster from within."
+    description = "Deploy your application's containers to any Kubernetes cluster you choose."
     icon = "icon-rocket"
     img = "img_10.jpg"
 
@@ -139,25 +139,26 @@ theme = "elate"
   [params.services]
     enable = true
     title = "Features"
-    description = "KubeCI enables you to go all cloud native with your CI/CD pipeline."
+    description = "KubeCI enables you to go completly cloud native with your CI/CD pipeline."
 
     [[params.services.item]]
-      title = "Same Cluster"
-      description = "Instead of needing to manage more infrastructure just for your CI/CD pipeline, KubeCI is able to run on the same cluster your applications run on."
+      title = "Shared Cluster"
+      description = "No additional infrastructure is required for your CI/CD pipeline, KubeCI can run in the same cluster as your applications."
       icon = "icon-anchor"
 
     [[params.services.item]]
-      title = "Web &amp; Interface"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      title = "Supports any language"
+      description = "By using containers for each step in your process you can leverage the languages you need without having to use different CI/CD systems."
       icon = "icon-layers2"
+
     [[params.services.item]]
-      title = "Photo &amp; Video"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      title = "Simple Configuration"
+      description = "KubeCI uses a YAML file stored in the same repository as your code, making it simple to reproduce your builds and for developers to make configuration changes easily"
       icon = "icon-video2"
 
     [[params.services.item]]
-      title = "CMS &amp; eCommerce"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"      
+      title = "Unlimited Flexibility"
+      description = "Run your builds, tests, and any other steps you can think of simply by using any container with the tools you need, giving you unlimited freedom to cusomize your CI/CD process to suit your needs"
       icon = "icon-monitor"
 
   # About section
