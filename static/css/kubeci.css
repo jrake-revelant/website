@@ -3,3 +3,155 @@
 .js .single-animate {
     opacity: 1;
 }
+
+#fh5co-home .logo {
+    width: 50%;
+    margin-top: -64px;
+    margin-bottom: 64px;
+}
+
+/* Overwrites for the color */
+
+a {
+    color: #3db2c6;
+}
+
+a:hover, a:active, a:focus {
+    color: #3db2c6;
+    outline: none;
+}
+
+@media screen and (max-width: 768px) {
+    #fh5co-header .navbar-brand {
+        color: #3db2c6 !important;
+    }
+
+    #fh5co-header #navbar li a:hover {
+        color: #3db2c6 !important;
+    }
+
+    #fh5co-header #navbar li.active a {
+        color: #3db2c6 !important;
+    }
+}
+
+#fh5co-header.navbar-fixed-top .navbar-brand {
+    color: #3db2c6;
+}
+
+#fh5co-header.navbar-fixed-top #navbar li a:hover {
+    color: #3db2c6;
+}
+
+#fh5co-header.navbar-fixed-top #navbar li.active a {
+    color: #3db2c6;
+}
+
+#fh5co-header.navbar-fixed-top #navbar li.active a span:before {
+    background-color: #3db2c6;
+}
+
+#fh5co-header .navbar-default .brand-slogan em {
+    color: #3db2c6;
+}
+
+#fh5co-home {
+    background-color: #3db2c6;
+}
+
+#fh5co-home .gradient {
+    background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #1d4670), color-stop(1, #3db2c6));
+    background-image: -webkit-repeating-linear-gradient(top left, #1d4670 0%, #3db2c6 100%);
+    background-image: repeating-linear-gradient(to bottom right, #1d4670 0%, #3db2c6 100%);
+    background-image: -ms-repeating-linear-gradient(top left, #1d4670 0%, #3db2c6 100%);
+}
+
+#fh5co-intro .fh5co-block > .fh5co-text .fh5co-intro-icon {
+    color: #3db2c6;
+}
+
+#fh5co-intro .fh5co-block:hover .btn:hover, #fh5co-intro .fh5co-block:focus .btn:hover {
+    background: #3db2c6 !important;
+    border: 2px solid #3db2c6 !important;
+}
+
+#fh5co-services {
+    background-color: #3db2c6;
+    background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #1d4670), color-stop(1, #3db2c6));
+    background-image: -webkit-repeating-linear-gradient(top left, #1d4670 0%, #3db2c6 100%);
+    background-image: repeating-linear-gradient(to bottom right, #1d4670 0%, #3db2c6 100%);
+    background-image: -ms-repeating-linear-gradient(top left, #1d4670 0%, #3db2c6 100%);
+}
+
+#fh5co-counters {
+    background: #3db2c6;
+}
+
+#fh5co-testimonials .box-testimony blockquote {
+    background: #3db2c6;
+}
+
+#fh5co-testimonials .box-testimony blockquote:after {
+    border-top-color: #3db2c6;
+}
+
+#fh5co-testimonials .box-testimony .author a {
+    color: #3db2c6;
+}
+
+#fh5co-work {
+    background-color: #3db2c6;
+    background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #1d4670), color-stop(1, #3db2c6));
+    background-image: -webkit-repeating-linear-gradient(top left, #1d4670 0%, #3db2c6 100%);
+    background-image: repeating-linear-gradient(to bottom right, #1d4670 0%, #3db2c6 100%);
+    background-image: -ms-repeating-linear-gradient(top left, #1d4670 0%, #3db2c6 100%);
+}
+
+.form-control:active, .form-control:focus {
+    border-color: #3db2c6;
+}
+
+.section-heading h2.left-border:after {
+    background: #3db2c6;
+}
+
+.section-heading h2:after {
+    background: #3db2c6;
+}
+
+.fh5co-nav-toggle.active i::before, .fh5co-nav-toggle.active i::after {
+    background: #3db2c6;
+}
+
+.fh5co-nav-toggle i {
+    color: #3db2c6;
+    background: #3db2c6;
+}
+
+.fh5co-nav-toggle i::before, .fh5co-nav-toggle i::after {
+    background: #3db2c6;
+}
+
+.btn.btn-primary {
+    background: #3db2c6;
+}
+
+.btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
+    background: #3db2c6;
+}
+
+.social li a.social-box {
+    background: #3db2c6;
+}
+
+.social li a.social-circle {
+    background: #3db2c6;
+}
+
+.social.social-box a {
+    background: #3db2c6;
+}
+
+.social.social-circle a {
+    background: #3db2c6;
+}
