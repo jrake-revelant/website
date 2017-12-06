@@ -1,5 +1,5 @@
 baseurl = "https://kubeci.io"
-title = "KubeCI"
+title = "KubeCI - Cloud Native Continuous Delivery"
 languageCode = "en-us"
 theme = "elate"
 
