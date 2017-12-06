@@ -17,7 +17,7 @@ theme = "elate"
     work = "Plugins"
     # testimonials = "Testimonials"
     services = "Features"
-    about = "About"
+#    about = "About"
     contact = "Contact"
 
     # You can add custom links before or after the default links
@@ -141,7 +141,7 @@ theme = "elate"
 
   # About section
   [params.about]
-    enable = true
+    enable = false
     title = "About"
     description = "These people make KubeCI possible. In case you want to get in touch you can also find them on other platforms."
 
