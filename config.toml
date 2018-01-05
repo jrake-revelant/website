@@ -219,7 +219,7 @@ theme = "elate"
 
   # Contact section
   [params.contact]
-    enable = true
+    enable = false
     map = false
     title = "Get in touch"
     description = "<a href='https://loodse.com'>Loodse</a> provides a wide range of consulting services tailor-made to your needs. We support your teams ability to build, implement and automate distributed, container-based and cloud native infrastructure. In close cooperation with your team, our experts will help you avoid common pitfalls, while minimizing time to market and building a high level of in-house competence and institutional knowledge."
